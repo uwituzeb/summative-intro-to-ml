@@ -51,6 +51,8 @@ The logistic regression model was trained with the following hyperparameters:
 
 ## Video presentation
 
+[Video presentation](https://www.youtube.com/watch?v=GWc9FlqgtaE)
+
 ## Instructions for running the notebook
 
 ### Prerequisites:
