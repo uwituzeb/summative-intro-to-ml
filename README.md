@@ -17,7 +17,7 @@ To create the classification models, [dataset](https://drive.google.com/file/d/1
 
 | Training Instance | Optimizer | Regularizer Used | Epochs | Early Stopping | Number of Layers | Learning Rate | Accuracy | F1 Score | Recall | Precision |
 |-------------------|-----------|------------------|--------|----------------|------------------|---------------|----------|----------|--------|-----------|
-| Instance 1        | Default   | None             | 100    | False          | 4                | 0.001         | 0.60     | 0.48     | 0.49   | 0.49      |
+| Instance 1        | Default   | None             | 100    | False          | 4                | 0.001         | 0.56     | 0.48     | 0.49   | 0.49      |
 | Instance 2        | Adam      | L2               | 100    | True           | 4                | 0.001         | 0.64     | 0.48     | 0.52   | 0.49      |
 | Instance 3        | Adam      | L1               | 100    | True           | 4                | 0.001         | 0.63     | 0.46     | 0.50   | 0.48      |
 | Instance 4        | SGD       | L2               | 100    | True           | 4                | 0.001         | 0.63     | 0.50     | 0.51   | 0.56      |
@@ -27,7 +27,7 @@ To create the classification models, [dataset](https://drive.google.com/file/d/1
 
 ### Neural network comparison
 
-The models were trained for multi-class classification, with five neural network model instances and a logistic regression model. Out of all the model instances for neural networks, the best performing model was instance 5 which was using L1_L2 regularization and RMSProp optimizer, however it was still giving a low accuracy of 0.65. The worst performing model was instance 1 which used default hyperparameters, as expected. Instance 1 ended up giving an accuracy of 0.60.
+The models were trained for multi-class classification, with five neural network model instances and a logistic regression model. Out of all the model instances for neural networks, the best performing model was instance 5 which was using L1_L2 regularization and RMSProp optimizer, however it was still giving a low accuracy of 0.65. The worst performing model was instance 1 which used default hyperparameters, as expected. Instance 1 ended up giving an accuracy of 0.56.
 
 If we are to compare according to f1 score and precision, instance 4(SGD and L2) was the best with the instance 5 being a close second as the f1 scores were almost tied. And for, recall the best performing model is instance 2(Adam and L2) and instance 5 which had a recall of 0.52. This continues to prove that instance 5 was the best combination.
 
