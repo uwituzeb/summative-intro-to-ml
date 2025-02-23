@@ -11,3 +11,20 @@ In Rwanda, high school students face significant challenges due to an inadequate
 ## Dataset
 
 To create the classification models, [dataset]([https://drive.google.com/file/d/1VXHjV4Hi7d__I9v2KYudh32OVud3aEvm/view](https://drive.google.com/file/d/1XC-gWLDLPuGyY9sepqH1tSXfd3Jm7aiJ/view?usp=sharing)) was used. The dataset was initially sourced from Kaggle and went through pre-processing and modifications to align with the project. The dataset contains 9 columns of data with variables or parameters that help in predicting student career paths. The target variable is the recommended career, which is a multiclass classification.
+
+
+## Findings
+
+| Training instance | Optimizer used(Adam, RMSPop) | Regularizer Used(L1 and L2) | Epochs | Early Stopping (Yes or No) | Number of Layers | Learning Rate | Add Columns to cater for: Accuracy, F1 score, Recall, Precision |
+|------------------|------------------------------|----------------------------|---------|---------------------------|-----------------|---------------|-------------------------------------------------------------|
+| Instance 1       |    Adam                          |       None                     |         |                           |                 |               |                                                               |
+| Instance 2       |                              |                            |         |                           |                 |               |                                                               |
+| Instance 3       |                              |                            |         |                           |                 |               |                                                               |
+| Instance 4       |                              |                            |         |                           |                 |               |                                                               |
+| Instance 5       |                              |                            |         |                           |                 |               |                                                               |
+
+## Summary
+
+## Video presentation
+
+## Instructions to run notebook
