@@ -35,6 +35,15 @@ It is clear that adding regularization helps improve models as the unregularized
 
 Overall, the difference was not very high. All the models shared a 4-layer network architecture, trained with a learning rate of 0.001 for up to 100 epochs, early stopping was also used except on the first instance to prevent overfitting.
 
+### Justifications
+
+- Instance 5 (RMSProp) performed best because RMSProp is known for handling adaptive learning rates well, making it effective for non-stationary objectives like career recommendation.
+- Adam (Instances 2 & 3) performed well but slightly lower because while Adam combines momentum and adaptive learning rates, it sometimes over-adapts and doesn't generalize as well as RMSProp in certain cases.
+- SGD (Instance 4) had good precision but lower recall because it updates weights more conservatively, which helps with generalization but may slow convergence.
+- Models with Early Stopping (Instances 2, 3, 4, and 5) outperformed Instance 1 because early stopping prevents overfitting, ensuring better generalization. Instance 1 (no early stopping) had the worst accuracy (0.56) because training for too long led to overfitting, making the model less reliable on test data.
+- Instance 5 (L1_L2) worked best by preventing overfitting while keeping important features, this is because comining L1 and L2 helps in generalization. L2 (Instances 2 & 4) improved recall by keeping weights balanced and preventing the model from focusing too much on some features, while L1 (Instance 3) lowered precision by removing some useful career-related features, because it forces some weights to 0.
+
+
 
 
 
