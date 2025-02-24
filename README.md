@@ -10,7 +10,7 @@ In Rwanda, high school students face significant challenges due to an inadequate
 
 ## Dataset
 
-To create the classification models, [dataset](https://drive.google.com/file/d/1XC-gWLDLPuGyY9sepqH1tSXfd3Jm7aiJ/view?usp=sharing) was used. The dataset was synthetically created as there were no publicly available datasets that align with the project. The dataset contains 9 columns of data with variables or parameters that help in predicting student career paths. The target variable is the recommended career, which is a multiclass classification.
+To create the classification models, [dataset](https://drive.google.com/file/d/1XC-gWLDLPuGyY9sepqH1tSXfd3Jm7aiJ/view?usp=sharing) was used. The dataset was synthetically created as there were no publicly available datasets that align with the project especially within the context of Rwanda. The dataset contains 9 columns of data with variables or parameters that help in predicting student career paths. The target variable is the recommended career, which is a multiclass classification.
 
 
 ## Findings
